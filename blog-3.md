@@ -44,13 +44,4 @@ The `in` operator checks if a property exists in an object. This is especially h
 #### Use Case:
 Use the `in` operator for objects with unique properties in a union, especially when working with simpler, property-based checks.
 
-## When to Use Type Guards
-
-Type Guards are necessary when:
-
-1. Handling Union Types: When you have union types, Type Guards allow you to safely access properties or methods by ensuring the variable is of the correct type.
-2. Working with Classes: Use Type Guards to determine the specific instance of a class in cases where multiple classes share a parent.
-3. Complex Data Structures: When working with interfaces or other custom types, Type Guards ensure each type’s properties and methods are accessed correctly.
-4. Improving Code Readability: Type Guards clarify type logic, making it easier for others to read and understand how data is handled.
-
 
