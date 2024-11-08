@@ -28,7 +28,7 @@ function greet(person: string | number) {
   } else {
     console.log(`Your age is ${person}`);
   }
-}
+}```
 
 #### Use Case:
 Use `typeof` when you need to differentiate between primitive types in a union type.
