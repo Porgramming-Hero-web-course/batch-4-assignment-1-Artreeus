@@ -20,15 +20,7 @@ TypeScript provides several built-in ways to create type guards. Let’s explore
 
 The `typeof` operator is one of the simplest type guards. It can check basic types like `string`, `number`, `boolean`, and `symbol`.
 
-Example :
-```typescript
-function greet(person: string | number) {
-  if (typeof person === 'string') {
-    console.log(`Hello, ${person}!`);
-  } else {
-    console.log(`Your age is ${person}`);
-  }
-}```
+
 
 #### Use Case:
 Use `typeof` when you need to differentiate between primitive types in a union type.
@@ -54,4 +46,19 @@ The `in` operator checks if a property exists in an object. This is especially h
 #### Use Case:
 Use the `in` operator for objects with unique properties in a union, especially when working with simpler, property-based checks.
 
+
+### Examples :
+
+### Type Of
+
+`function greet(person: string | number) {
+  if (typeof person === 'string') {
+    console.log(`Hello, ${person}!`);
+  } else {
+    console.log(`Your age is ${person}`);
+  }
+}`
+
+
+### instance of
 
