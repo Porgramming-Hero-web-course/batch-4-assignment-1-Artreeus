@@ -1,4 +1,4 @@
-Que : Why are Type Guards Necessary? Discuss Various Types of Type Guards and Their Use Cases.
+### Que : Why are Type Guards Necessary? Discuss Various Types of Type Guards and Their Use Cases.
 
 
 TypeScript is a powerful tool for developers, allowing JavaScript to be typed. Type guards are mainly used to making code more readable and maintainable. However, even with TypeScript’s robust type-checking, there are scenarios where we need to verify the actual runtime type of a variable or value—this is where Type Guards come into play.
